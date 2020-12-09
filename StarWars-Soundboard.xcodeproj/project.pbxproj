@@ -13,6 +13,12 @@
 		86BE895A258150520085398F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86BE8958258150520085398F /* Main.storyboard */; };
 		86BE895C258150530085398F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86BE895B258150530085398F /* Assets.xcassets */; };
 		86BE895F258150530085398F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86BE895D258150530085398F /* LaunchScreen.storyboard */; };
+		86BE896C258152180085398F /* Jabba.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86BE8968258152170085398F /* Jabba.wav */; };
+		86BE896D258152180085398F /* VaderBreathing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86BE8969258152180085398F /* VaderBreathing.wav */; };
+		86BE896E258152180085398F /* ChewyRoar.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86BE896A258152180085398F /* ChewyRoar.wav */; };
+		86BE896F258152180085398F /* R2D2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86BE896B258152180085398F /* R2D2.wav */; };
+		86BE8973258153D60085398F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BE8972258153D60085398F /* AVFoundation.framework */; };
+		86BE8977258162A40085398F /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86BE8976258162A40085398F /* Starjedi.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		86BE895B258150530085398F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86BE895E258150530085398F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86BE8960258150530085398F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86BE8968258152170085398F /* Jabba.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Jabba.wav; sourceTree = "<group>"; };
+		86BE8969258152180085398F /* VaderBreathing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = VaderBreathing.wav; sourceTree = "<group>"; };
+		86BE896A258152180085398F /* ChewyRoar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ChewyRoar.wav; sourceTree = "<group>"; };
+		86BE896B258152180085398F /* R2D2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = R2D2.wav; sourceTree = "<group>"; };
+		86BE8972258153D60085398F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		86BE8976258162A40085398F /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86BE8973258153D60085398F /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,7 @@
 			children = (
 				86BE8951258150520085398F /* StarWars-Soundboard */,
 				86BE8950258150520085398F /* Products */,
+				86BE8971258153D60085398F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +70,8 @@
 		86BE8951258150520085398F /* StarWars-Soundboard */ = {
 			isa = PBXGroup;
 			children = (
+				86BE8975258162320085398F /* Fonts */,
+				86BE8967258151A20085398F /* Sounds */,
 				86BE8952258150520085398F /* AppDelegate.swift */,
 				86BE8954258150520085398F /* SceneDelegate.swift */,
 				86BE8956258150520085398F /* ViewController.swift */,
@@ -65,6 +81,33 @@
 				86BE8960258150530085398F /* Info.plist */,
 			);
 			path = "StarWars-Soundboard";
+			sourceTree = "<group>";
+		};
+		86BE8967258151A20085398F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				86BE896A258152180085398F /* ChewyRoar.wav */,
+				86BE8968258152170085398F /* Jabba.wav */,
+				86BE896B258152180085398F /* R2D2.wav */,
+				86BE8969258152180085398F /* VaderBreathing.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		86BE8971258153D60085398F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86BE8972258153D60085398F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86BE8975258162320085398F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				86BE8976258162A40085398F /* Starjedi.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +168,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				86BE895F258150530085398F /* LaunchScreen.storyboard in Resources */,
+				86BE896C258152180085398F /* Jabba.wav in Resources */,
 				86BE895C258150530085398F /* Assets.xcassets in Resources */,
+				86BE896E258152180085398F /* ChewyRoar.wav in Resources */,
+				86BE896D258152180085398F /* VaderBreathing.wav in Resources */,
+				86BE896F258152180085398F /* R2D2.wav in Resources */,
+				86BE8977258162A40085398F /* Starjedi.ttf in Resources */,
 				86BE895A258150520085398F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
