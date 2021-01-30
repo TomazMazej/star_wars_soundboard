@@ -19,6 +19,7 @@
 		86BE896F258152180085398F /* R2D2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86BE896B258152180085398F /* R2D2.wav */; };
 		86BE8973258153D60085398F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BE8972258153D60085398F /* AVFoundation.framework */; };
 		86BE8977258162A40085398F /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86BE8976258162A40085398F /* Starjedi.ttf */; };
+		86FAF9BF25C584BE00FD1B23 /* swsoundboardscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 86FAF9BE25C584BE00FD1B23 /* swsoundboardscreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		86BE896B258152180085398F /* R2D2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = R2D2.wav; sourceTree = "<group>"; };
 		86BE8972258153D60085398F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		86BE8976258162A40085398F /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		86FAF9BE25C584BE00FD1B23 /* swsoundboardscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swsoundboardscreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		86BE8951258150520085398F /* StarWars-Soundboard */ = {
 			isa = PBXGroup;
 			children = (
+				86FAF9BD25C5849C00FD1B23 /* Screenshots */,
 				86BE8975258162320085398F /* Fonts */,
 				86BE8967258151A20085398F /* Sounds */,
 				86BE8952258150520085398F /* AppDelegate.swift */,
@@ -108,6 +111,14 @@
 				86BE8976258162A40085398F /* Starjedi.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		86FAF9BD25C5849C00FD1B23 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				86FAF9BE25C584BE00FD1B23 /* swsoundboardscreen.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +181,7 @@
 				86BE895F258150530085398F /* LaunchScreen.storyboard in Resources */,
 				86BE896C258152180085398F /* Jabba.wav in Resources */,
 				86BE895C258150530085398F /* Assets.xcassets in Resources */,
+				86FAF9BF25C584BE00FD1B23 /* swsoundboardscreen.png in Resources */,
 				86BE896E258152180085398F /* ChewyRoar.wav in Resources */,
 				86BE896D258152180085398F /* VaderBreathing.wav in Resources */,
 				86BE896F258152180085398F /* R2D2.wav in Resources */,
