@@ -1,4 +1,4 @@
-# star_wars_soundboard
+# Star Wars Soundboard App
 Simple Star Wars themed Soundboard App for iOS
 
 ## Usage and functions
